@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Govt of india</title>
+    <style>
+        h1{
+    color:#FF9933;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+h2{
+    color:#FF9933;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+p1
+{
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+#id1{
+    color:#138808;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+#id2
+{
+    text-align: center;
+    font-size: 35px;
+    color:darkred;
+    background-color: #138808;
+}
+a{
+    color:#000080;
+    font-size: 20px;
+
+}
+#list{
+    color:darkorange;
+    align-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.toprt{
+    /* position: absolute; */
+  top: 8px;
+  right: 16px;
+  height: 15px;
+  width: 12px;
+}
+#demo
+{
+    text-align: right;
+    color:#FF9933;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+    </style>
+     
+
+</head>
+<body>
+    <div class="toprt">
+        <img src="Flag.svg">
+    </div>
+    <p id="demo"></p>
+   
+    <h1>
+        Government of India (Swachh Bharat)
+    </h1> 
+       
+    
+    <h2>Towards Development of India</h2>
+    <p1>Welcome to Government of India Government of India is to develop the country in a better way.Government of 
+        India will solve the issue whatever related to your surrounds please send your complain through this form.our 
+    24/7 services will monitor the requests you have sent to us so that we can solve your issue development should start 
+with every individual if people responds developement starts that is the only one vision to our website Please give your 
+complaints Let us all build good and clean india </p1>
+        <ul>
+            <div id="list">
+            <li>we solve issue related to roads in your area</li>
+            <li>we solve issue related to water in your area</li>
+            <li>we solve issue related to Floods in your area</li>
+            <li>we solve issue related to Cleaning  in your area</li>
+       </div>
+        </ul>
+        <script >
+            var d = new Date();
+             document.getElementById("demo").innerHTML = d;
+        </script>
+
+        <form method ="POST" action="">
+                <div id ="id2">
+            Enter your state:<br>
+         <input type="text" name="state">
+            <br>
+            Enter your District:<br>
+            <input type="text" name="dist"><br>
+            Enter your Mandal:<br>
+            <input type="text" name="mandal"><br>
+            Enter your village or pincode:<br>
+            <input type="text" name="village">
+            <p>Enter your complaint in the complaint box below</p>
+            <input type="text" name="msg" ><br>
+            <input id="id1" type="submit">
+            </div>
+            </form>
+       
+</body>
+</html>

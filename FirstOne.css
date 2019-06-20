@@ -1,0 +1,41 @@
+h1{
+    color:chocolate;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+p1
+{
+    color:green;
+    text-align: center;
+}
+body
+{
+    background-image: url("backimg.jpg" );
+}
+#id1{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+#id2
+{
+    text-align: center;
+    font-size: 20px;
+    color:blue;
+}
+a{
+    color: blue;
+    font-size: 20px;
+
+}
+.topnav a 
+           {
+            float:right;
+            color:blue;
+            text-align:center;
+            padding: 20px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            }
